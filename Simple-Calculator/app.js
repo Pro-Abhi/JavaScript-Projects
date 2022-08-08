@@ -1,6 +1,11 @@
 let display = document.getElementById("display");
 
 let buttons = Array.from(document.getElementsByClassName("btn"));
+// console.log(buttons);
+
+display.addEventListener("mouseover", () => {
+  display.style.cursor = "text";
+});
 
 buttons.map((btn) => {
   btn.addEventListener("click", (e) => {
@@ -25,7 +30,3 @@ buttons.map((btn) => {
     }
   });
 });
-
-// function percentage(first, second) {
-//     return(first * (second/100))
-// }
