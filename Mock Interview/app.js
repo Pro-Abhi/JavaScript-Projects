@@ -12,3 +12,10 @@ function onOff() {
   }
 }
 
+let close_btn = document.querySelector(".fa-xmark")
+
+close_btn.addEventListener("click", off)
+function off(){
+  input.style.display = "none"
+}
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- reset css file -->
+  <link rel="stylesheet" href="../Project - Mock Interview/reset.css">
+  <!-- style css file -->
+  <link rel="stylesheet" href="../Project - Mock Interview/style.css">
+  <!-- font-awesome icon cdn file -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+  <title>Project - Mock Interview</title>
+</head>
+<body>
+  <!-- header section of app -->
+  <header id="header">
+    <div class="container flex">
+      <div class="left flex">
+        <div class="all">All</div>
+        <div class="color-list flex">
+          <span class="size red">High</span>
+          <span class="size yellow">Medium</span>
+          <span class="size blue">Low</span>
+          <span class="size black">None</span>
+        </div>
+        <div class="select">
+          <i class="fa-solid fa-check"></i>
+        </div>
+      </div>
+
+      <div class="right">
+        <button class="create-btn">Create Task</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- main section of app -->
+  <main id="main">
+    <section class="container">
+      <div class="popup-box">
+        <div class="input flex">
+          <textarea name="text" id="text" cols="30" rows="4" class="textarea"></textarea>
+          <button class="submit-btn">Done</button>
+        </div>
+        <div class="color-side flex">
+          <span class="size red">High</span>
+          <span class="size yellow">Medium</span>
+          <span class="size blue">Low</span>
+          <span class="size black">None</span>
+          <i class="fa-solid fa-xmark close"></i>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <!-- JavaScript file link -->
+  <script src="../Project - Mock Interview/app.js"></script>
+</body>
+</html>
